@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="hhhxpsa.css">
+</head>
+<body dir="rtl">
+    <div class="container">
+        <h3>אהלן, תודה על פנייתך. ראשית יש לדעת שמדובר בהצבה קבועה אצלנו ביחידה. אם הדבר רלוונטי עבורך, אנא השב את הפרטים הבאים:</h3>
+        <form id="test-form">
+            <div class="question">
+                <label for="personalNumber">מספר אישי:</label>
+                <input type="text" id="personalNumber" name="personalNumber" required>
+            </div>
+            <div class="question">
+                <label for="idNumber">תעודת זהות:</label>
+                <input type="text" id="idNumber" name="idNumber" required>
+            </div>
+            <div class="question">
+                <label for="fullName">שם מלא:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="question">
+                <label for="age">גיל:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="question">
+                <label for="address">כתובת מדויקת:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="question">
+                <label for="rank">דרגה:</label>
+                <input type="text" id="rank" name="rank" required>
+            </div>
+            <div class="question">
+                <label for="militaryStatus">סטטוס מילואים:</label>
+                <input type="text" id="militaryStatus" name="militaryStatus" required>
+            </div>
+            <div class="question">
+                <label for="operationalExperience">ניסיון מבצעי מהסדיר והמילואים:</label>
+                <textarea id="operationalExperience" name="operationalExperience" required></textarea>
+            </div>
+            <div class="question">
+                <label for="personalSkills">כישורים אישיים שיכולים לתרום לתפקיד:</label>
+                <textarea id="personalSkills" name="personalSkills" required></textarea>
+            </div>
+            <button type="submit">שלח</button>
+        </form>
+        <div id="response-message"></div>
+    </div>
+
+    <script src="hhhxpsa.js"></script>
+</body>
+</html>

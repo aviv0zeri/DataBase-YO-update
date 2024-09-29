@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מאגר תשובות</title>
+    <link rel="stylesheet" href="rrrpstwh2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body dir="rtl">
+    <div class="container">
+        <h1>מאגר תשובות</h1>
+        
+        <div class="password-section">
+            <label for="password">הכנס סיסמה:</label>
+            <input type="password" id="password" />
+            <button id="submit-password">אשר</button>
+        </div>
+
+        <div id="database-section" style="display:none;">
+            <table id="answers-table">
+                <thead>
+                    <tr>
+                        <th>מספר אישי</th>
+                        <th>תעודת זהות</th>
+                        <th>שם מלא</th>
+                        <th>גיל</th>
+                        <th>כתובת מדויקת</th>
+                        <th>דרגה</th>
+                        <th>סטטוס מילואים</th>
+                        <th>ניסיון מבצעי מהסדיר והמילואים</th>
+                        <th>כישורים אישיים שיכולים לתרום לתפקיד</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Answers will be inserted here -->
+                </tbody>
+            </table>
+            <button id="download-excel" class="rounded-button">הורד כקובץ Excel</button>
+            <button id="clear-database">נקה מאגר נתונים</button>
+        </div>
+    </div>
+
+    <script src="rrrpstwh2.js"></script>
+</body>
+</html>
